@@ -8,7 +8,6 @@
     <Content Include="BotConfiguration.bot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Compile Include="CafeBot.fs" />
     <Compile Include="EchoState.fs" />
     <Compile Include="EchoBot.fs" />
     <Compile Include="Startup.fs" />
