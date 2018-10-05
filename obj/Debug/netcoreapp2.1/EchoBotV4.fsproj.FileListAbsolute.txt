@@ -1,9 +1,0 @@
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\EchoBotV4.deps.json
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\EchoBotV4.runtimeconfig.json
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\EchoBotV4.runtimeconfig.dev.json
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\EchoBotV4.dll
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\EchoBotV4.pdb
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\obj\Debug\netcoreapp2.1\EchoBotV4.dll
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\obj\Debug\netcoreapp2.1\EchoBotV4.pdb
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\bin\Debug\netcoreapp2.1\BotConfiguration.bot
-H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4Fsharp\obj\Debug\netcoreapp2.1\EchoBotV4.fsprojAssemblyReference.cache
