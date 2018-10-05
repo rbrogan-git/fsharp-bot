@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{6EC3EE1D-3C4E-46DD-8F32-0CC8E7565705}") = "EchoBotV4", "EchoBotV4.fsproj", "{8163E799-283D-4CBD-BDC3-8E29365B7241}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot Builder Echo Bot V4", "..\Microsoft Bot Builder V4 SDK1\Bot Builder Echo Bot V4\Bot Builder Echo Bot V4.csproj", "{36E3629B-BA97-470F-A470-D674AD69EB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bot Builder Basic Bot V4", "..\Microsoft Bot Builder V4 SDK1\Bot Builder Basic Bot V4\Bot Builder Basic Bot V4.csproj", "{C67E976A-D7F6-46F2-ABB5-6505FAE150EB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8163E799-283D-4CBD-BDC3-8E29365B7241}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8163E799-283D-4CBD-BDC3-8E29365B7241}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8163E799-283D-4CBD-BDC3-8E29365B7241}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8163E799-283D-4CBD-BDC3-8E29365B7241}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36E3629B-BA97-470F-A470-D674AD69EB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36E3629B-BA97-470F-A470-D674AD69EB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36E3629B-BA97-470F-A470-D674AD69EB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36E3629B-BA97-470F-A470-D674AD69EB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C67E976A-D7F6-46F2-ABB5-6505FAE150EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C67E976A-D7F6-46F2-ABB5-6505FAE150EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C67E976A-D7F6-46F2-ABB5-6505FAE150EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C67E976A-D7F6-46F2-ABB5-6505FAE150EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6508CDB0-D373-46A6-B2D5-879D20B21D79}
+	EndGlobalSection
+EndGlobal

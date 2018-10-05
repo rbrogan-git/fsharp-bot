@@ -1,0 +1,14 @@
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\bin\Debug\netcoreapp2.1\EchoBotV4.deps.json
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\bin\Debug\netcoreapp2.1\EchoBotV4.runtimeconfig.json
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\bin\Debug\netcoreapp2.1\EchoBotV4.runtimeconfig.dev.json
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\bin\Debug\netcoreapp2.1\EchoBotV4.dll
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\bin\Debug\netcoreapp2.1\EchoBotV4.pdb
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.csproj.CoreCompileInputs.cache
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.AssemblyInfoInputs.cache
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.AssemblyInfo.cs
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.dll
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.pdb
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.RazorAssemblyInfo.cache
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.RazorAssemblyInfo.cs
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.RazorTargetAssemblyInfo.cache
+H:\Users\Roger\Source\Repos\EchoBotV4\EchoBotV4\obj\Debug\netcoreapp2.1\EchoBotV4.csprojAssemblyReference.cache
