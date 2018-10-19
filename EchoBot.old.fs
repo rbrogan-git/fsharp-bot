@@ -6,7 +6,7 @@ open Microsoft.Bot.Schema
 module Async =
     let AwaitTaskVoid : (Task -> Async<unit>) =
         Async.AwaitIAsyncResult >> Async.Ignore
-type EchoBot(accessors:EchoBotAccessors) = 
+type EchoBotOld(accessors:EchoBotAccessors) = 
     do printfn "In EchoBot init %A" accessors 
     interface IBot with 
         member this.OnTurnAsync (turnContext : ITurnContext, cancellationToken:  CancellationToken  ) =

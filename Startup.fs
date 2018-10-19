@@ -35,7 +35,7 @@ type Startup private () =
     member this.ConfigureServices(services: IServiceCollection) = 
             //let botFramOpts = new ConfigurationCredentialProvider(this.Configuration)
    
-            services.AddBot<EchoBot>(fun options -> 
+            services.AddBot<EchoBot2>(fun options -> 
                                 let secretKey = this.Configuration.["botFileSecret"]
                                 let botFilePath = this.Configuration.["botFilePath"]
                                 let env = this.Configuration.["environment"]

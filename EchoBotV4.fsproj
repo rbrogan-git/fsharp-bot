@@ -5,17 +5,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="TaskBuilder.fs" />
+    <Compile Include="EchoState.fs" />
+    <Compile Include="EchoBot2.fs" />
     <None Include="readme.md" />
     <Content Include="BotConfiguration.bot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Compile Include="EchoState.fs" />
-    <Compile Include="EchoBot.fs" />
+    <Compile Include="EchoBot.old.fs" />
     <Compile Include="Startup.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
-
-  <ItemGroup />
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore" Version="2.1.3" />
