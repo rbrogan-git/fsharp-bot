@@ -3,7 +3,7 @@ open System.Threading.Tasks;
 open Microsoft.Bot.Builder;
 open System.Threading
 open Microsoft.Bot.Schema
-open FSharp.Control.Tasks.V2
+open FSharp.Control.Tasks.V2.ContextInsensitive
 
 type EchoBot2(accessors:EchoBotAccessors) = 
     do printfn "In EchoBot init %A" accessors 
