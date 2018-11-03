@@ -13,25 +13,18 @@ open System.Threading.Tasks
 open Microsoft.Bot.Builder
 
 type EchoBot2(accessors:EchoBotAccessors) = 
-    do printfn "In EchoBot init %A" accessors 
+    let WelcomeText = "Welcome to Simple Prompt Bot. This bot will introduce you to prompts. Type anything to get started." 
     let dialogs = new DialogSet (accessors.ConversationDialogState)
     do dialogs.Add(TextPrompt("name")) |> ignore
     let SendWelcomeMessageAsync (turnContext : ITurnContext) (cancellationToken: CancellationToken ) = 
         task{
-            let reply = turnContext.Activity.CreateReply()
-            reply.Text <- "welcome"
-            do! turnContext.SendActivityAsync (reply, cancellationToken) :> Task
+            for m in turnContext.Activity.MembersAdded do
+                if(m.Id <> turnContext.Activity.Recipient.Id) then
+                    let reply = turnContext.Activity.CreateReply()
+                    reply.Text <- WelcomeText
+                    do! turnContext.SendActivityAsync (reply, cancellationToken) :> Task
         }
-        //     foreach (var member in turnContext.Activity.MembersAdded)
-        //     {
-        //         if (member.Id != turnContext.Activity.Recipient.Id)
-        //         {
-        //             var reply = turnContext.Activity.CreateReply();
-        //             reply.Text = WelcomeText;
-        //             await turnContext.SendActivityAsync(reply, cancellationToken);
-        //         }
-        //     }
-        // }
+
     interface IBot with 
         member this.OnTurnAsync (turnContext : ITurnContext, cancellationToken : CancellationToken ) =
             task {
@@ -48,8 +41,7 @@ type EchoBot2(accessors:EchoBotAccessors) =
                                 PromptOptions(Prompt = MessageFactory.Text "Please enter your name."),
                                 cancellationToken
                             ) :> Task
-                    | DialogTurnStatus.Complete ->  // We had a dialog run (it was the prompt). Now it is Complete.
-                        //if (results.Result <> null) then 
+                    | DialogTurnStatus.Complete ->  // We had a dialog run (it was the prompt). Now it is Complete. 
                         do! turnContext.SendActivityAsync(
                                 MessageFactory.Text (sprintf "Thank you, I have your name as %A" results.Result)
                             ) :> Task
