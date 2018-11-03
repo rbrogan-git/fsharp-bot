@@ -17,6 +17,7 @@ open Microsoft.Extensions.Options;
 type Startup private () =
     new ( env : IHostingEnvironment) as this =
         Startup() then
+        let _isProduction = env.IsProduction
         let builder = new ConfigurationBuilder()
         builder.SetBasePath(env.ContentRootPath) |> ignore
         builder.AddJsonFile("appsettings.json", optional= true, reloadOnChange= true) |> ignore
@@ -44,7 +45,7 @@ type Startup private () =
                                 let conversationState = new ConversationState(dataStore)
                                 options.State.Add(conversationState) |> ignore
                                 // Loads .bot configuration file and adds a singleton that your Bot can access through dependency injection.
-                                let botConfig = BotConfiguration.Load(botFilePath , secretKey);
+                                let botConfig = BotConfiguration.Load(botFilePath , secretKey)
                                 services.AddSingleton<BotConfiguration>(botConfig) |> ignore
                 
                                 let service = botConfig.Services.Where(fun s -> s.Type = "endpoint" && s.Name = env).FirstOrDefault() :?> EndpointService
