@@ -12,6 +12,7 @@ open Microsoft.Extensions.Configuration;
 open Microsoft.Extensions.DependencyInjection;
 open Microsoft.Extensions.Logging;
 open Microsoft.Extensions.Options;
+open Microsoft.Bot.Builder.Dialogs
 
 
 type Startup private () =
@@ -67,6 +68,7 @@ type Startup private () =
                 // State accessors enable other components to read and write individual properties of state.
                 let accessors = new EchoBotAccessors(conversationState)             
                 accessors.CounterState <- conversationState.CreateProperty<CounterState>(EchoBotAccessors.CounterStateName)
+                accessors.ConversationDialogState <- conversationState.CreateProperty<DialogState>("DialogState")
                 accessors) |> ignore
  
             //services.AddBot<EchoBot>(fun options ->
