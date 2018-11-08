@@ -5,12 +5,6 @@ open Microsoft.Bot.Builder.Dialogs
 open System.Threading
 open Microsoft.Bot.Schema
 open FSharp.Control.Tasks.V2.ContextInsensitive
-open Microsoft.Bot.Builder.Dialogs
-open Microsoft.Bot.Builder
-open Microsoft.Bot.Builder
-open Microsoft.Bot.Schema
-open System.Threading.Tasks
-open Microsoft.Bot.Builder
 
 type EchoBot2(accessors:EchoBotAccessors) = 
     let WelcomeText = "Welcome to Simple Prompt Bot. This bot will introduce you to prompts. Type anything to get started." 

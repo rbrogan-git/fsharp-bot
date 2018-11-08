@@ -1,0 +1,18 @@
+{
+    "name": "sharp",
+    "description": "",
+    "services": [
+        {
+            "type": "endpoint",
+            "appId": "",
+            "appPassword": "",
+            "endpoint": "http://localhost:1205/api/messages",
+            "id": "6a01b200-ccd0-11e8-966e-ed4cef891c79",
+            "name": "http://localhost:1205/api/messages"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0",
+    "overrides": null,
+    "path": "C:\\Users\\roger.brogan\\Source\\Repos\\fsharp-bot\\sharp.bot"
+}
