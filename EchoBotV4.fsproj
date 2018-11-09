@@ -9,7 +9,7 @@
     <Compile Include="EchoState.fs" />
     <Compile Include="EchoBot2.fs" />
     <None Include="readme.md" />
-    <Content Include="BotConfiguration.bot">
+    <Content Include="fsharp-bot.bot">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Compile Include="EchoBot.old.fs" />
