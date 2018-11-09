@@ -1,0 +1,61 @@
+{
+  "name": "fsharp-bot",
+  "padlock": "2xVgKDnJM7Gb52dRR2jmbg==!BZSiWloA4kT9wXf5+ppJB0jjtpF5AfqCJdB9b3J6jTX3BM+UHNbwtwvyE8ajWddp",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "05b41c71-1447-4b4e-afd9-40cf6839972f",
+      "subscriptionId": "a7e682b8-3b75-43d6-8e6a-f3daed1905f9",
+      "resourceGroup": "MyDemos",
+      "serviceName": "fsharp-bot",
+      "type": "abs",
+      "name": "fsharp-bot",
+      "id": "1"
+    },
+    {
+      "connectionString": "ICd8NPsD7Lu/RH1mhKWMXQ==!76hCI/77EXe/eYKeaoYV8VYRh4DyuR3BQ9Jk/FpBNE6gCXTdeJHHvvG8OO7vd92ga5ORFHAjZH8y1jjud6Q94IjQquc9L825awQ/7S+U1k4GSii7tOvtpQBakFLd0TR6a7TUc7bEzPB8BZHijb1T2vIyM4mUKjmt58XyM7PlCYgUaHpz8x5yd1o3pZ9jEkaNmk2cvMv3rMKHwGAacULC9A==",
+      "tenantId": "05b41c71-1447-4b4e-afd9-40cf6839972f",
+      "subscriptionId": "a7e682b8-3b75-43d6-8e6a-f3daed1905f9",
+      "resourceGroup": "MyDemos",
+      "serviceName": "fsharpbotbf48",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "f4f22b23-74df-4763-a5fa-704c7d534d9d",
+      "appPassword": "g8WMdD82GYUT5kmQEapL5g==!WVgCCYwSRmVEtwIa7lC1dms7QCKD/QYNZw8Pg8lrn98=",
+      "endpoint": "https://fsharp-bot.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "9xJh0kmz3A40Qho/zrlQ/Q==!QdgpTyWsyF1T0Oh/lCHmUj6PZAQTI9HWFC+0yuqRE1zWRqGHCv2k7NbjYxNAkZQW",
+      "applicationId": "34fe620a-f4fa-413d-aa7e-e9c35b0b2de7",
+      "apiKeys": {},
+      "tenantId": "05b41c71-1447-4b4e-afd9-40cf6839972f",
+      "subscriptionId": "a7e682b8-3b75-43d6-8e6a-f3daed1905f9",
+      "resourceGroup": "MyDemos",
+      "serviceName": "fsharp-botvycyys",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "79e9d569-3681-4ebe-bbcc-c947f1006d96",
+      "authoringKey": "bD2WkT+n9Eyura0MMFcAWw==!WtPoGbnfZBAe1y9Ogd0xsVtQHH1nuBlRklsFVtvXyjJ1SEph7Oub79omlL+z6s4a",
+      "version": "0.1",
+      "region": "westus",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
+}
